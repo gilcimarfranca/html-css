@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <figure>
+
+    <img src="img/turista.jpg" alt="Turistas obersando um mapa">
+
+    <figcaption>Casal de turistas</figcaption>
+
+    </figure>
+
+    <hr>
+
+    <h1>Imagens Responsivas</h1>
+
+    <img srcset="img/torre-eifel-400w.jpg 400w,
+                 img/torre-eifel-600w.jpg 600w,
+                 img/torre-eifel-800w.jpg 800w
+                 img/torre-eifel-320w.jpg 320w" 
+
+         sizes="(max-width: 320px) 280px,
+                (max-width: 400px) 360px,
+                (max-width: 600px) 560px,
+                800px"
+
+    src="img/torre-eifel-800w.jpg" alt="Torre Eifel">
+    
+</body>
+</html>
