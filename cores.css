@@ -1,0 +1,10 @@
+#hexa {
+    color: #0000ff83;
+}
+
+#rgb {
+    color: rgb(201, 163, 59, 60%);
+}
+#hsl {
+    color: hsl(0, 100%, 50%);
+}
