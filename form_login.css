@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(3, 72, 94);
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(8, 39, 85);
+    border-radius: 5px;
+    min-width: 400px;
+    height: 300px;
+    box-shadow: 3px 4px 7px 0px black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: rgb(37, 64, 138);
+    border-radius: 5px 5px 0 0;
+}
+
+h1 {
+    text-shadow: 3px 4px 5px black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.sec-form {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.campos {
+    width: 80%;
+    outline: none;
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(128, 155, 243);
+    box-shadow: 3px 4px 7px 0px black;
+    transition: all 0.1s ease-in;
+}
+
+button[type="submit"] {
+    margin-bottom: 10px;
+    width: 80%;
+    margin: 0 auto;
+    border-style: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: blueviolet;
+    box-shadow: 3px 4px 7px 0px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.campos::placeholder {
+    color: white;
+}
+
+.campos:focus {
+    outline: 3px solid rgb(216, 123, 17);
+    background-color: rgb(78, 111, 218);
+    padding: 10px 10px;
+}
+
+button[type="submit"]:focus {
+    outline: 1px solid rgb(216, 123, 17);
+
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(133, 56, 197);
+}
+
+@media only screen and (max-width: 450px) {
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(8, 39, 85);
+        border-radius: 5px;
+        min-width: 250px;
+        height: 300px;
+        box-shadow: 3px 4px 7px 0px black;
+    }
+}
